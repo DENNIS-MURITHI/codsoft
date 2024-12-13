@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- The head section begins -->
+    <div id="header">
+        <div class="container">
+         <nav>
+              <img src="images/logo-removebg-preview.png" id="logo" alt="Dennis">
+              <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work-sect">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+             </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+
+          <!-- header text begins -->
+           <div class="header-text">
+            <p><span id="name">Frontend </span>Engineer </p>
+            <h1>Hi, I am <span id="name">Dennis</span><br>from Kenya</h1>
+           </div>
+        </div>
+    </div>
+
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abt-col-1">
+                    <img id="abt_img" src="images/dennisfile-removebg-preview.png" alt="my picture" >
+                </div>
+
+                <div class="abt-col-2">
+                    <h1 class="abt-title">About Me</h1>
+                    <p>I am <span>front-End</span> web developer. I provide clean code and pixel perfect design. I also make the website more & more interactive with web animation.A responsive design makes your website accessible to all users, regardless of their device.</p>
+
+                    <div class="abt-sub-titles">
+                        <p class="sub-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="sub-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="sub-links" onclick="opentab('education')" >Education</p>
+                    </div>
+
+
+                    <!-- skills sect -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br> Developing Web Applications & Interfaces</li>
+                            <li><span>SQL</span><br>Mastery Of Structured Query language</li>
+                            <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <!-- experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br> Codsoft Frontend Internship</li>
+                            <li><span>2022-2023</span><br>Mastery Of Structured Query language</li>
+                            <li><span>2022</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <!-- education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br> Power learn project</li>
+                            <li><span>2023</span><br>Azubi Africa</li>
+                            <li><span>2022</span><br>Freecodecamp</li>
+                        </ul>
+                    </div>
+
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- services section -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Figma/Ux-UI Design</h2>      
+                <p>Passionate UX/UI designer creating intuitive, user-centric designs. Skilled in Figma to bring ideas to life with precision</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>React</h2>    
+                <p>Experienced in building dynamic, responsive web applications with React. I create efficient, scalable solutions with modern best practices.Check out my projects to see React in action</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-node"></i>
+                <h2>Backend</h2>
+                <p>Skilled in backend development, building robust and scalable server-side applications. Proficient in technologies like Node.js and databases.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Work section -->
+
+<div id="work-sect">
+    <div class="container">
+            <h1 class="sub-title">My Work </h1>
+    <div class="work-list">
+             <div class="work">
+                    <img src="images/week-1.jpg" alt="work place">
+                <div class="work-content">
+                    <h3>Web App</h3>
+                    <p>The app helps connect people to seeds</p>
+                    </i><a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+
+             <div class="work">
+                    <img src="images/work-2.jpg" alt="work place">
+                <div class="work-content">
+                    <h3>Web App</h3>
+                    <p>The app helps connect people to seeds</p>
+                    </i><a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+
+             <div class="work">
+                    <img src="images/work-3.jpg" alt="work place">
+                <div class="work-content">
+                    <h3>Web App</h3>
+                    <p>The app helps connect people to seeds</p>
+                    </i><a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+       <div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+<!-- contact section -->
+     
+<div id="contact">
+    <div class="class">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> denmurithi@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +254220000000</p>
+                <div class="social-media">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fas fa-times"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/DENNIS MURITHI MUTHURI CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="text" name="email" placeholder="xyz@gmail.com" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+</div>
+<footer>
+    <div class="copyright">
+        <p>Copyright &copy; Dennis.  2024. Made with love</p>
+    </div>
+</footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
